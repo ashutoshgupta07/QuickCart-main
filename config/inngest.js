@@ -52,7 +52,7 @@ export const syncUserUpdation = inngest.createFunction(
 
 //Inngest Function to delete user from database
 
-export const syncUserDeletion inngest.createFunction(
+export const syncUserDeletion = inngest.createFunction(
     {
         id: 'delete-user-with-clerk'
     },
